@@ -15,4 +15,10 @@ class Pato(Animal):
         return 'Quá quá'
 
 pato1 = Pato()
-print(pato1.emitir_som())
+
+
+def fazer_barulho(animal):
+    som = animal.emitir_som()
+    return som
+
+print(fazer_barulho(pato1))
