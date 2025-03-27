@@ -20,4 +20,13 @@ class Circulo(FormaGeometrica):
  
 
 circulo1 = Circulo(5)
-print(circulo1.calcular_perimetro())
+circulo2 = Circulo(7)
+retangulo1 = Retangulo(10, 15)
+retangulo2 = Retangulo(15, 20)
+
+lista = [circulo1, circulo2, retangulo1, retangulo2]
+
+for i in lista:
+    print(i.calcular_perimetro())
+
+

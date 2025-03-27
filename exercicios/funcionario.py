@@ -31,13 +31,11 @@ lista_final = [f1, f2, f3, f4]
 
 def Folha_de_pagamento(lista_final):
     for i in lista_final:
-        print(i.nome)
-        print(i.calcular_salario())
-        
-
-print(Folha_de_pagamento(lista_final))
+        print(f"Nome: {i.nome}, Salário: {i.calcular_salario()}")
 
 
+
+Folha_de_pagamento(lista_final)
 
 
 
